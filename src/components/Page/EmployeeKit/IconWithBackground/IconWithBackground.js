@@ -1,13 +1,13 @@
 import Title from '../../../Title/Title';
 import './IconWithBackground.scss';
 import { IconWithBackgroundData } from './iconWithBackgroundData';
-import ReactHtmlParser from 'react-html-parser';
+import parse from 'html-react-parser';
 
 const IconWithBackground = ({ title }) => {
     return (
         <div className={`background-wrapper`}>
             <div className='container custom-container text-center'>
-                {title.text && <Title className={title.cssClass}>{ReactHtmlParser(title.text)}</Title>}
+                {title.text && <Title className={title.cssClass}>{parse(title.text)}</Title>}
                 <div className='icon-wrapper'>
                     <div className='row'>
                         {

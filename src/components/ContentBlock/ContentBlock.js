@@ -1,14 +1,14 @@
 import Title from "../Title/Title";
-import ReactHtmlParser from 'react-html-parser';
+import parse from 'html-react-parser';
 
 const ContentBlock = ({title, content, contentClass}) =>{
     return(
         <div className="content-block">
-            {title.text && <Title className={title.cssClass}>{ReactHtmlParser(title.text)}</Title>}
+            {title.text && <Title className={title.cssClass}>{parse(title.text)}</Title>}
             {
                 content &&
                 <div className={`content-description ${contentClass}`}>
-                    {ReactHtmlParser(content)}
+                    {parse(content)}
                 </div>
             }
         </div>

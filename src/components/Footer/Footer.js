@@ -1,7 +1,7 @@
 import { preFooterData } from '../../pages/WelcomeKit/PreFooterData';
 import Title from '../Title/Title';
 import './Footer.scss';
-import ReactHtmlParser from 'react-html-parser';
+import parse from 'html-react-parser';
 import {FiPhoneCall} from 'react-icons/fi';
 import {AiOutlineMail} from 'react-icons/ai';
 
@@ -17,7 +17,7 @@ const Footer = () => {
                             preFooterData?.map(item => (
                                 <div key={item.id} className='mb-5'>
                                     <Title headingLevel='h5'>{item.title}</Title>
-                                    <article className='article-description font-1 mt-2'>{ReactHtmlParser(item.description)}</article>
+                                    <article className='article-description font-1 mt-2'>{parse(item.description)}</article>
                                 </div>
                             ))
                         }
