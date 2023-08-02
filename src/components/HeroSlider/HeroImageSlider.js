@@ -2,7 +2,6 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function HeroSlider({data}) {
   return (
-    <div className='mt-4'>
       <Carousel>
       {
         data?.map(item => (
@@ -12,7 +11,6 @@ function HeroSlider({data}) {
         ))
       }
     </Carousel>
-    </div>
   );
 }
 

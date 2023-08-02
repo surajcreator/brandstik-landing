@@ -33,10 +33,10 @@ const Footer = () => {
                 <div className='divider'></div>
                 <div className='container'>
                     <ul className='footer-help-links'>
-                        <li><a className='c-btn c-btn-bright' href='https://www.brandstik.com/contact-us'>Contact Us</a></li>
-                        <li><a className='c-btn c-btn-bright' href='https://www.brandstik.com/contact-us'>International Partnerships</a></li>
-                        <li><a className='c-btn c-btn-bright' href='https://www.brandstik.com/contact-us'>Welcome Kit Program</a></li>
-                        <li><a className='c-btn c-btn-bright' href='https://blog.brandstik.com'>Blog</a></li>
+                        <li><a className='c-btn c-btn-bright' target='_blank' href='https://www.brandstik.com/contact-us'>Contact Us</a></li>
+                        <li><a className='c-btn c-btn-bright' href='/international-welcome-kit' target='_blank'>International Partnerships</a></li>
+                        <li><a className='c-btn c-btn-bright' target='_blank' href='/employee-welcome-kit'>Welcome Kit Program</a></li>
+                        <li><a className='c-btn c-btn-bright' target='_blank' href='https://blog.brandstik.com'>Blog</a></li>
                     </ul>
 
                     <div className='contact-details'>

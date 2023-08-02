@@ -1,35 +1,33 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+import './Header.scss'
 
-function Header() {
+const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-white">
-      <Container>
-        <Navbar.Brand href="#home">
-          <img src='/brandstik-logo.png' />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto"> {/* Change me-auto to mr-auto */}
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-            <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="https:www.brandstik.com/"><img class="logo" src='/brandstik-logo.png' /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="https://www.brandstik.com/products">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.brandstik.com/about-us">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.brandstik.com/contact-us">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Request a Demo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
   );
 }
 
