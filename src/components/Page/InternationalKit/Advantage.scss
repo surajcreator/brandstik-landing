@@ -1,0 +1,14 @@
+@import '../../../assets/sass/variables/variables.scss';
+
+.ribbon-band{
+    .title{
+        background-color: #b1d7b0;
+        padding: 10px;
+        font-family: $font-1;
+        font-weight: 400;
+
+        strong{
+            font-weight: 900;
+        }
+    }
+}

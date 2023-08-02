@@ -3,6 +3,10 @@
 .feature-wrapper {
     padding: 80px 0 20px 0;
 
+    &.bg-color{
+        background-color: #b1d7b0;
+    }
+
     .feature-option {
         margin: 0;
         padding: 0;

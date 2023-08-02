@@ -10,7 +10,9 @@ import UniqueTechPlatform from "../../components/Page/EmployeeKit/UniquePlatform
 import Feature from "./Feature"
 import Catalogue from "../../components/Catalogue/Catalogue"
 import Testimonials from "../../components/Testimonials/Testimonials"
-import { heroSliderEmployeeWelcomeKit } from "./HeroSliderData"
+import { heroSliderEmployeeWelcomeKit } from "./HeroSliderData";
+import { preFooterData } from "./PreFooterData"
+import { featureData } from "./FeatureData"
 
 const WelcomeKit = () =>{
     return(
@@ -31,10 +33,10 @@ const WelcomeKit = () =>{
                 <ContentBlock title={{text:'<span class="title-underline center">BrandSTIK Advantage</span>', cssClass:'text-center'}} content='BrandSTIK offers the simplest wat to build and deploy the welcome kit program. We manage the entire operational aspects of the program and enusure your program is successful.' contentClass='text-center welcome-kit-deploy' />
             </div>
             <UniqueTechPlatform />
-            <Feature />
+            <Feature featureData={featureData} />
             <Testimonials />
             <Catalogue />
-            <Footer  preFooterData={''} preFooterTitle={''} />
+            <Footer  preFooterData={preFooterData} preFooterTitle={""} />
         </>
     )
 }

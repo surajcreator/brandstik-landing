@@ -9,10 +9,22 @@
 
             .client-item{
                 margin-right: 10px;
+                flex: 0 0 33.33%;
 
                 img{
-                    height: 80px;
+                    height: 130px;
                 }
+            }
+
+            &::-webkit-scrollbar {
+                width: 10px;
+                height: 10px;
+                background-color: #e7e7e9;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background:url('../../../public/underline-horizontal.jpg');
+                background-size: contain;
             }
         }
 

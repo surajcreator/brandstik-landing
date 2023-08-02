@@ -1,0 +1,18 @@
+.why-section{
+    .title{
+        .title-underline{
+            margin-bottom: 0;
+
+            &:after{
+                top:24px;
+                width: 295px;
+            }
+
+            @media screen and (max-width:767px) {
+                &:after{
+                    display: none;
+                }
+            }
+        }
+    }
+}

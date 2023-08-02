@@ -1,11 +1,10 @@
 import Card from "../../components/Card/Card";
 import Title from "../../components/Title/Title";
 import './Feature.scss';
-import { featureData } from "./FeatureData";
 
-const Feature = () => {
+const Feature = ({featureData, hasBackgrondColor=false}) => {
     return (
-        <div className="feature-wrapper">
+        <div className={`feature-wrapper ${hasBackgrondColor ? 'bg-color' : ''}`}>
             <div className="container">
                 <Title className='text-center'><span className="title-underline zero">Our Feature</span></Title>
                 <ul className="feature-option">

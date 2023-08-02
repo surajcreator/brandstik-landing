@@ -1,16 +1,15 @@
-import { preFooterData } from '../../pages/WelcomeKit/PreFooterData';
 import Title from '../Title/Title';
 import './Footer.scss';
 import parse from 'html-react-parser';
 import {FiPhoneCall} from 'react-icons/fi';
 import {AiOutlineMail} from 'react-icons/ai';
 
-const Footer = () => {
+const Footer = ({preFooterData, preFooterTitle}) => {
     return (
         <footer>
             <div className='pre-footer'>
                 <div className='container'>
-                    <Title title={"Why Choose BrandSTIK's International Welcome Kit?"} className={'text-center'} headingLevel='h3' />
+                    {preFooterTitle && <Title title={"Why Choose BrandSTIK's International Welcome Kit?"} className={'text-center'} headingLevel='h3'><span className='title-underline center'>{preFooterTitle}</span></Title>}
 
                     <div className='pre-footer-items mt-5'>
                         {
