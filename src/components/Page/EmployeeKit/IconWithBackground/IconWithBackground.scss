@@ -1,0 +1,26 @@
+@import '../../../../assets/sass/variables/variables.scss';
+
+.background-wrapper{
+    background-color: #fbedbe;
+    padding: 20px 0;
+
+    .icon-wrapper{
+        .img-section{
+            width:170px;
+            margin: auto;
+        }
+
+        .img-title{
+            font-family: $font-0;
+            font-weight: 900;
+            font-size: 46px;
+            color: #e4763b;
+        }
+
+        .img-description{
+            font-family: $font-1;
+            font-size: 28px;
+            margin: auto;
+        }
+    }
+}

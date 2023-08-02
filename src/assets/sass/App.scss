@@ -1,0 +1,67 @@
+@import './variables/variables.scss';
+
+html,body{
+    width:100%;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+    font-family: $font-2;
+}
+
+.color-primary{
+    color: #e47639 !important;
+}
+
+.c-btn {
+    background-color: #c7c8ca;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    display: inline-block;
+    min-width: 150px;
+    text-align: center;
+
+    &.c-btn-active {
+        background-color: #e47639;
+        color: #ffffff;
+    }
+
+    &.c-btn-bright {
+        background-color: #fbedbe;
+        color: #000;
+    }
+
+    &.c-btn-success {
+        background-color: #b1d7b0;
+        color: #000;
+    }
+}
+
+.custom-container{
+    width:100%;
+    max-width: 800px;
+}
+
+.custom-container1{
+    width:100%;
+    max-width: 1000px;
+}
+
+.font-1{
+    font-family: $font-1 !important;
+}
+
+.font-0{
+    font-family: $font-0 !important;
+}

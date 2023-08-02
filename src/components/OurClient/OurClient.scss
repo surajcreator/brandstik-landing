@@ -1,0 +1,44 @@
+.our-client {
+    width: 100%;
+
+    .client-wrapper {
+        &.horizontal {
+            overflow-x: auto;
+            min-width: 365px;
+            display: flex;
+
+            .client-item{
+                margin-right: 10px;
+
+                img{
+                    height: 80px;
+                }
+            }
+        }
+
+        &.vertical {
+            max-height: 715px;
+            overflow-y: auto;
+
+            &::-webkit-scrollbar {
+                width: 10px;
+                height: 10px;
+                background-color: #e7e7e9;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background:url('../../../public/vertical-scroll-thumb.svg') no-repeat;
+                background-size: cover;
+            }
+        }
+
+        .client-item {
+            margin-bottom: 20px;
+
+            img {
+                height: 150px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

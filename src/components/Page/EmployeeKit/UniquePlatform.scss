@@ -1,0 +1,17 @@
+@import '../../../assets/sass/variables/variables.scss';
+
+.platform-wrapper {
+    background-color: #b1d7b0;
+    padding: 30px 0;
+
+    .platform-text {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+
+        p{
+            font-size: 18px;
+            text-align: right;
+        }
+    }
+}

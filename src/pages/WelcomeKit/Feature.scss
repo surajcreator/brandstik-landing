@@ -1,0 +1,62 @@
+@import '../../assets/sass/variables/variables.scss';
+
+.feature-wrapper {
+    padding: 80px 0 20px 0;
+
+    .feature-option {
+        margin: 0;
+        padding: 0;
+        display: flex;
+
+        @media screen and (max-width:991px) {
+            display: block;
+            text-align: center;
+
+            li {
+                margin-bottom: 10px;
+            }
+        }
+
+        li {
+            list-style: none;
+            margin: 10px;
+            font-family: $font-1;
+            pointer-events: none;
+
+            a {
+                padding: 5px 12px;
+                font-weight: 400;
+            }
+        }
+    }
+
+    .feature-item-box{
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+            background-color: #e7e7e9;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background:url('../../../public/underline-horizontal.jpg') repeat;
+            background-size: contain;
+        }
+
+        .feature-item-wrapper{
+            display: flex;
+            margin-bottom: 30px;
+            margin-top: 30px;
+    
+            .feature-item{
+                flex: 0 0 450px;
+                margin-right: 25px;
+    
+                @media screen and (max-width:767px) {
+                    flex: 0 0 80%;
+                }
+            }
+        }
+    }
+}
