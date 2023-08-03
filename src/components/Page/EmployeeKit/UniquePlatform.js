@@ -12,10 +12,13 @@ const UniqueTechPlatform = () =>{
 
                     <div className='col-12 col-md-5'>
                         <div className='platform-text'>
-                            <Title className='text-end'>Unique <span className='title-underline right'>Tech Platform</span></Title>
+                            <Title>Unique <span className='title-underline zero'>Tech Platform</span></Title>
 
                             <p>
                             Leading brands trust the BrandSTIK - FOXBOX Rewards Solutions platform to underpin their employee engagement processes, so you never need to worry about coordination or logistics
+                            </p>
+                            <p className='text-end'>
+                                <a target='_blank' href=' https://www.brandstik.com/platform/welcome-kit-redemption-platform/1'>Read more</a>
                             </p>
                         </div>
                     </div>

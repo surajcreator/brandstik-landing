@@ -8,13 +8,13 @@ export const catalogueData = [
     {
         id: "pf24",
         title: "2023 Best Seller",
-        img: "/5.jpg",
+        img: "/catalogue2.jpg",
         downloadLink: "https://www.brandstik.com/catalogue/best-seller-corporate-gifts/13"
     },
     {
         id: "pf25",
         title: "Sustainable Catal",
-        img: "/catalogue2.jpg",
+        img: "/catalogue3.jpg",
         downloadLink: "https://www.brandstik.com/catalogue/sustainable-catalogue/10"
     }
 ];

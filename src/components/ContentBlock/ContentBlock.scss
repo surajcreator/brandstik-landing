@@ -3,4 +3,10 @@
 .content-block{
     font-family: $font-1;
     width:100%;
+
+    .content-description{
+        p{
+            font-family: $font-1;
+        }
+    }
 }

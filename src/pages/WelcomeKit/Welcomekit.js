@@ -19,8 +19,8 @@ const WelcomeKit = () =>{
         <>
             <HeroSlider data={heroSliderEmployeeWelcomeKit} />
             <RibbonWithTitle text='Request a Demo' />
-            <WelcomeKitSpecs src="/specs-welcome-kit.jpg" alt="Employee Welcome kit" />
-            <Client />
+            <WelcomeKitSpecs src="/specs-welcome-kit.svg" alt="Employee Welcome kit" />
+            <div className="mt-4"><Client /></div>
             <div className="container custom-container mt-5 mb-5">
                 <ContentBlock title={{text:'<span class="title-underline left">Easy to deploy</span> Welcome Kit Program', cssClass:'text-center'}} content='<p>BrandSTIK is the largest welcome kit provider in India and our experts will work with you through every step of the process from designing the kit to last mile delivery. We have designed welcome kits for every budget and target. You can define multiple kits for different segments (gender, seniority or location) or a single standard kit as per your requirement.</p>
                 

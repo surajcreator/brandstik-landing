@@ -8,7 +8,9 @@ import { clientData } from "../../../OurClient/ClientData";
 const Client = () => {
     const [size, setSize] = useState();
     const [selectedClient, setSelectedClient] = useState({
-        description: clientData[0].description
+        description: clientData[0].description,
+        name: clientData[0].name,
+        kitImg: clientData[0].kitImg
     })
 
     useEffect(()=>{
@@ -32,10 +34,10 @@ const Client = () => {
 
                 <div className="col-12 col-md-8">
                     <div className='product-banner'>
-                        <img className="img-fluid" src='/client-banner-product.jpg' alt="client-banner-product" />
+                        <img className="img-fluid" src={selectedClient.kitImg} alt={selectedClient.name} />
                     </div>
                     <div className="banner-text">
-                        <h3>{selectedClient?.description}</h3>
+                        <h6>{selectedClient?.description}</h6>
                         <p className="mt-4">
                             <a className="c-btn c-btn-active">Welcome Kit</a>
                             <a className="c-btn ms-3">Employee Kit Kit</a>

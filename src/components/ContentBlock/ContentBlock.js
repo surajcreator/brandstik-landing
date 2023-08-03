@@ -1,5 +1,6 @@
 import Title from "../Title/Title";
 import parse from 'html-react-parser';
+import './ContentBlock.scss'
 
 const ContentBlock = ({title, content, contentClass}) =>{
     return(

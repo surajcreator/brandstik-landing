@@ -1,34 +1,34 @@
-import './Header.scss'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import {RxHamburgerMenu} from 'react-icons/rx';
+import './Header.scss';
 
-const Header = () => {
+function Header() {
   return (
-    <header>
-      <nav class="navbar navbar-expand-lg bg-white">
-      <div class="container">
-        <a class="navbar-brand" href="https:www.brandstik.com/"><img class="logo" src='/brandstik-logo.png' /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="https://www.brandstik.com/products">Categories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.brandstik.com/about-us">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.brandstik.com/contact-us">Contact us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">Request a Demo</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    </header>
+    <Navbar collapseOnSelect expand="lg" className="bg-body-white">
+      <Container>
+        <Navbar.Brand href="#home">
+          <img src='/brandstik-logo.png' />
+        </Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ms-auto"> {/* Change me-auto to mr-auto */}
+            <Nav.Link href="https://www.brandstik.com/products">Categories</Nav.Link>
+            <Nav.Link href="https://www.brandstik.com/about-us">About us</Nav.Link>
+            <Nav.Link href="https://www.brandstik.com/contact-us">Contact us</Nav.Link>
+            <NavDropdown title={<RxHamburgerMenu />} id="collapsible-nav-dropdown">
+              <NavDropdown.Item href="https://www.brandstik.com/products">Products</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.brandstik.com/collections">Themes</NavDropdown.Item>
+              <NavDropdown.Item href="https://www.brandstik.com/brands">Brands</NavDropdown.Item>
+              <NavDropdown.Item href="https://blog.brandstik.com">Blog</NavDropdown.Item>
+            </NavDropdown>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
 
-export default Header;
+export default Header

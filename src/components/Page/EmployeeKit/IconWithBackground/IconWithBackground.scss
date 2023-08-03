@@ -4,6 +4,12 @@
     background-color: #fbedbe;
     padding: 20px 0;
 
+    .icon-text-wrapper{
+        width:100%;
+        max-width: 375px;
+        margin: auto;
+    }
+
     .icon-wrapper{
         .img-section{
             width:170px;
@@ -21,6 +27,14 @@
             font-family: $font-1;
             font-size: 28px;
             margin: auto;
+        }
+
+        .col-12{
+            &:last-child{
+                .icon-text-wrapper{
+                    max-width: 800px;
+                }
+            }
         }
     }
 }
