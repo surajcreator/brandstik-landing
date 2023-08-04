@@ -11,9 +11,9 @@ const Card = ({ data, hasDownload = false }) => {
 
             {(title || description) &&
                 <div className="card-content">
-                    {hasDownload && <div className='card-title'><a target='_blank' href={data.downloadLink}><GoDownload /> {title}</a></div>}
+                    {hasDownload && <div className='card-title text-center'><a target='_blank' href={data.downloadLink}><GoDownload /> {title}</a></div>}
                     {title && !hasDownload &&<div className='card-title'>{title}</div>}
-                    <div className='card-description'>{description}</div>
+                    {description && <div className='card-description'>{description}</div>}
                 </div>
             }
         </div>
