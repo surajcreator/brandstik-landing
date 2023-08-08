@@ -37,7 +37,7 @@ const Client = () => {
                         <img className="img-fluid" src={selectedClient.kitImg} alt={selectedClient.name} />
                     </div>
                     <div className="banner-text">
-                        <h6>{selectedClient?.description}</h6>
+                        <h4>{selectedClient?.description}</h4>
                         <p className="mt-4">
                             <a className="c-btn c-btn-active">Welcome Kit</a>
                             <a className="c-btn ms-3">Employee Kit Kit</a>
