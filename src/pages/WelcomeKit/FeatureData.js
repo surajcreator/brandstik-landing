@@ -42,3 +42,26 @@ export const featureData = [
         img: "/Cork-laptop-sleeve.jpg",
     },
   ];
+
+  export const featureOptions = [
+    {
+      id: "fo23",
+      title: "3000+ Products",
+      className: "c-btn-active"
+    },
+    {
+      id: "fo24",
+      title: "Innovative Kits",
+      className: "c-btn-success"
+    },
+    {
+      id: "fo25",
+      title: "Global Shipping",
+      className: "c-btn-bright"
+    },
+    {
+      id: "fo26",
+      title: "Inhouse Printing Facility",
+      className: "c-btn-active"
+    },
+  ]

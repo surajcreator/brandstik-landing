@@ -30,7 +30,7 @@ will ensure smooth execution of the entire operation from order placement to del
 
                 </p></div>' contentClass='text-center welcome-kit-deploy' />
             </div>
-            <Feature featureData={featureDataInternational} hasBackgrondColor={true} title='Key Features' />
+            <Feature featureData={featureDataInternational} hasBackgrondColor={true} />
             <WelcomeKitSpecs src="/specs-international-welcome-kit.jpg" alt="Employee Welcome kit" />
             <RibbonWithTitle text='Reach Out to Us' />
             <Catalogue />

@@ -2,16 +2,17 @@ import Card from "../components/Card/Card";
 import Title from "../components/Title/Title";
 import './Feature.scss';
 
-const Feature = ({featureData, hasBackgrondColor=false, title}) => {
+const Feature = ({featureData, hasBackgrondColor=false, title, featureOptions}) => {
     return (
         <div className={`feature-wrapper ${hasBackgrondColor ? 'bg-color' : ''}`}>
             <div className="container">
-                <Title className='text-center'><span className="title-underline zero">{title}</span></Title>
+                {title && <Title className='text-center'><span className="title-underline zero">{title}</span></Title>}
                 <ul className="feature-option">
-                    <li><a className='c-btn c-btn-active' href='#'>3000+ Products</a></li>
-                    <li><a className='c-btn c-btn-success' href='#'>Innovative Kits</a></li>
-                    <li><a className='c-btn c-btn-bright' href='#'>Global Shipping</a></li>
-                    <li><a className='c-btn c-btn-active' href='#'>Inhouse Printing Facility</a></li>
+                    {
+                        featureOptions?.map(item => (
+                            <li key={item.id}><a className={`c-btn ${item.className}`} href='#'>{item.title}</a></li>        
+                        ))
+                    }
                 </ul>
 
                 <div className="feature-item-box">
