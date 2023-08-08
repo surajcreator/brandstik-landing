@@ -18,7 +18,7 @@ export const featureDataInternational = [
       title: "In-house Designing, Printing and Warehousing",
       description:
         "From concept to storage, we've got you covered – benefit from our in-house designing, printing, and warehousing solutions for a seamless experience. Streamlined efficiency at every step.",
-      img: "image_url_9.jpg",
+      img: "feature-int3.jpg",
     },
   ];
   
