@@ -1,4 +1,4 @@
-@import '../../assets/sass/variables/variables.scss';
+@import '../assets/sass/variables/variables.scss';
 
 .feature-wrapper {
     padding: 80px 0 20px 0;
@@ -44,7 +44,7 @@
         }
 
         &::-webkit-scrollbar-thumb {
-            background:url('../../../public/underline-horizontal.jpg') repeat;
+            background:url('../../public/underline-horizontal.jpg') repeat;
             background-size: contain;
         }
 
