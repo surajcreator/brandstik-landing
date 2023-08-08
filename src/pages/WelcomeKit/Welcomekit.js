@@ -18,7 +18,7 @@ const WelcomeKit = () =>{
     return(
         <>
             <HeroSlider data={heroSliderEmployeeWelcomeKit} />
-            <RibbonWithTitle text='Request a Demo' />
+            <RibbonWithTitle text='Request a Demo' redirectLink={{link: 'https:www.brandstik.com/contact-us', target:'_blank'}} />
             <WelcomeKitSpecs src="/specs-welcome-kit.svg" alt="Employee Welcome kit" />
             <div className="mt-4"><Client /></div>
             <div className="container custom-container mt-5 mb-5">
