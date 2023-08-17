@@ -1,0 +1,36 @@
+.diwali-page{
+    .our-features{
+        .feature-item{
+            img{
+                width:100px
+            }
+        
+            .title{
+                font-weight: 400;
+                font-size: 22px;
+            }
+        }
+    }
+    
+    .feature-wrapper {
+        .feature-option{
+            display: block;
+
+            @media screen and (max-width:991px) {
+                display: flex;
+            }
+            li{
+                pointer-events: visible;
+                width:23%;
+
+                @media screen and (max-width:991px) {
+                    width:auto
+                }
+
+                a{
+                    display: block !important;
+                }
+            }
+        }
+    }
+}

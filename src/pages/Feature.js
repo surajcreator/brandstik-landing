@@ -1,8 +1,15 @@
+import { useState } from "react";
 import Card from "../components/Card/Card";
 import Title from "../components/Title/Title";
 import './Feature.scss';
 
-const Feature = ({featureData, hasBackgrondColor=false, title, featureOptions}) => {
+export const Feature = ({featureData, hasBackgrondColor=false, title, featureOptions}) => {
+    const [articles, setArticles] = useState(featureData);
+
+    const menuClickHandler = (linkId) =>{
+        const filterArticles = featureData.filter(item => item.linkId === linkId);
+        setArticles(filterArticles);
+    }
     return (
         <div className={`feature-wrapper ${hasBackgrondColor ? 'bg-color' : ''}`}>
             <div className="container">
@@ -10,7 +17,7 @@ const Feature = ({featureData, hasBackgrondColor=false, title, featureOptions}) 
                 <ul className="feature-option">
                     {
                         featureOptions?.map(item => (
-                            <li key={item.id}><a className={`c-btn ${item.className}`} href='#'>{item.title}</a></li>        
+                            <li key={item.id}><a onClick={() => menuClickHandler(item.id)} className={`c-btn pointer ${item.className}`}>{item.title}</a></li>        
                         ))
                     }
                 </ul>
@@ -18,7 +25,7 @@ const Feature = ({featureData, hasBackgrondColor=false, title, featureOptions}) 
                 <div className="feature-item-box">
                     <div className="feature-item-wrapper">
                         {
-                            featureData?.map(item => (
+                            articles?.map(item => (
                                 <div className="feature-item">
                                     <Card data={item} />
                                 </div>
@@ -30,5 +37,3 @@ const Feature = ({featureData, hasBackgrondColor=false, title, featureOptions}) 
         </div>
     )
 }
-
-export default Feature

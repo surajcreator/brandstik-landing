@@ -7,7 +7,7 @@ import Advantage from "../../components/Page/InternationalKit/Advantage";
 import ClinteInt from "../../components/Page/InternationalKit/Client";
 import RibbonWithTitle from "../../components/RibbonWithTitle/RibbonWithTitle";
 import Testimonials from "../../components/Testimonials/Testimonials";
-import Feature from "../Feature";
+import {Feature} from "../Feature";
 import { heroSliderInternationalWelcomeKit } from "./HeroSliderData";
 import './InternationalWelcomeKit.scss';
 import { featureDataInternational } from "./featureDataInternations";
