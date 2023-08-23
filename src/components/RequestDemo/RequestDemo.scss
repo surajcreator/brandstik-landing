@@ -1,0 +1,16 @@
+@import '../../assets/sass/variables/variables.scss';
+
+.request-callback {
+    background-color: #e47639;
+    padding: 30px 0;
+
+    .title{
+        font-family: $font-2;
+        color: #fff;
+        text-transform: uppercase;
+    }
+
+    .request-form{
+        margin-top: 25px;
+    }
+}

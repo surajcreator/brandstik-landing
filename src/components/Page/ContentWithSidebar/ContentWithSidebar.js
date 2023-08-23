@@ -7,9 +7,10 @@ import { popularKitData } from "../../../pages/Diwali/data/PopularKit";
 export const ContentWithSidebar = ({title, navItems}) => {
     const [size, setSize] = useState();
     const [selectedArticle, setSelectedArticle] = useState({
+        id: popularKitData[0].id,
         description: popularKitData[0].description,
         name: popularKitData[0].name,
-        kitImg: popularKitData[0].kitImg
+        kitImg: popularKitData[0].kitImg,
     })
 
     useEffect(()=>{
@@ -29,8 +30,13 @@ export const ContentWithSidebar = ({title, navItems}) => {
                   key={item.id}
                   className={`mb-3 ${size <= 991 ? "horizontal" : "vertical"}`}
                 >
-                  <a onClick={() => setSelectedArticle(item.id)} className={`c-btn d-block pointer ${
-                      selectedArticle === item.id ? "c-btn-bright" : ""}`}>
+                  <a onClick={() => setSelectedArticle({
+                    id: item.id,
+                    description: item.description,
+                    name: item.name,
+                    kitImg: item.kitImg,
+                  })} className={`c-btn d-block pointer ${
+                      selectedArticle.id === item.id ? "c-btn-bright" : ""}`}>
                     {item.navItems}
                   </a>
                 </li>

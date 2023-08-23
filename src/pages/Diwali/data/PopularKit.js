@@ -1,93 +1,87 @@
 export const popularKitData = [
-    {
-      id: 1,
-      navItems: 'Diwali Kit1',
-      img: "/cred-logo.jpg",
-      kitImg: "/cred-kit.jpg",
-      name: "CRED",
-      description:
-        "Brandstik's welcome kit for CRED was a perfect blend of luxury and convenience. Featuring a UCB T-shirt, premium diary, novel book, copper bottle, zero-risk mask, stickers, and a delightful hamper with chocolate candies, premium tea, superfood trial mix, sweet potato chips, a yellow smiley ball, and bath soap, it left a lasting impression on recipients.",
-    },
-    {
-      id: 2,
-      navItems: 'Diwali Kit2',
-      img: "/lookout-logo.jpg",
-      kitImg: "/lookout-kit.jpg",
-      name: "LOOKOUT",
-      description:
-        "BrandSTIK's case study welcome kit for Lookout wowed with its thoughtful selection: an I-dry jacket, comfy socks, Borosil coffeemate travel mug, notebook, memo pad, pouch, and a warm welcome card. A perfect blend of practicality and personalization left a lasting impression, making it a memorable corporate gifting solution. ",
-    },
-    {
-      id: 3,
-      navItems: 'Diwali Kit3',
-      img: "/magna-logo.jpg",
-      kitImg: "/magna-kit.jpg",
-      name: "MAGNA",
-      description:
-        "BrandSTIK's sustainable welcome kit for Magna impressed with its eco-friendly essentials: a bamboo flask, rice husk mug, wooden keychain, diary, and pen. This thoughtful and environmentally conscious corporate gifting solution left a lasting impact on recipients, reflecting Brandstik's commitment to sustainability. ",
-    },
-    {
-      id: 4,
-      navItems: 'Diwali Kit4',
-      img: "/people-logo.jpg",
-      kitImg: "/people-kit.jpg",
-      name: "PEOPLE",
-      description:
-        "BrandSTIK's corporate gifting prowess shone through in their exceptional case study welcome kit for Peope (shaadi.com). This carefully crafted kit featured a sleek desk lamp, a reliable power bank, a handy bottle, and a premium diary and pen, all tastefully adorned with the company's branded logo. The personalized touch extended to a warm welcome card, making recipients feel valued and appreciated. This impressive ensemble showcased utility, elegance, and branding synergy, making it a memorable and cherished gift for Peope's esteemed members.",
-    },
-    {
-      id: 5,
-      img: "/ust-logo.jpg",
-      navItems: 'Diwali Kit5',
-      kitImg: "/ust-kit.jpg",
-      name: "UST",
-      description:
-        "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
-    },
-    {
-      id: 5,
-      img: "/ust-logo.jpg",
-      navItems: 'Diwali Kit6',
-      kitImg: "/ust-kit.jpg",
-      name: "UST",
-      description:
-        "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
-    },
-    {
-      id: 5,
-      img: "/ust-logo.jpg",
-      navItems: 'Diwali Kit7',
-      kitImg: "/ust-kit.jpg",
-      name: "UST",
-      description:
-        "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
-    },
-    {
-      id: 5,
-      img: "/ust-logo.jpg",
-      navItems: 'Diwali Kit8',
-      kitImg: "/ust-kit.jpg",
-      name: "UST",
-      description:
-        "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
-    },
-    {
-      id: 5,
-      img: "/ust-logo.jpg",
-      navItems: 'Diwali Kit9',
-      kitImg: "/ust-kit.jpg",
-      name: "UST",
-      description:
-        "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
-    },
-    {
-      id: 5,
-      img: "/ust-logo.jpg",
-      navItems: 'Diwali Kit10',
-      kitImg: "/ust-kit.jpg",
-      name: "UST",
-      description:
-        "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
-    },
-  ];
-  
+  {
+    id: 1,
+    isActive: true,
+    navItems: "Diwali Kit 1",
+    kitImg: "/Kit1-min.jpeg",
+    name: "BrandSTIK Diwali Delight",
+    description: "BrandSTIK Diwali Delight",
+  },
+  {
+    id: 2,
+    navItems: "Diwali Kit 2",
+    kitImg: "/Kit2-min.jpeg",
+    name: "BrandSTIK Traditional Treasures",
+    description: "BrandSTIK Traditional Treasures",
+  },
+  {
+    id: 3,
+    navItems: "Diwali Kit 3",
+    kitImg: "/Kit3-min.jpeg",
+    name: "BrandSTIK Sparkling Surprises",
+    description: "BrandSTIK Sparkling Surprises",
+  },
+  {
+    id: 4,
+    navItems: "Diwali Kit 4",
+    kitImg: "/Kit4-min.jpeg",
+    name: "BrandSTIK Aromatic Bliss",
+    description: "BrandSTIK Aromatic Bliss",
+  },
+  {
+    id: 5,
+    navItems: "Diwali Kit 5",
+    kitImg: "/Kit5-min.jpeg",
+    name: "UST",
+    description: "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
+  },
+  {
+    id: 6,
+    navItems: "Diwali Kit 6",
+    kitImg: "/Kit6-min.jpeg",
+    name: "UST",
+    description: "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
+  },
+  {
+    id: 7,
+    navItems: "Diwali Kit 7",
+    kitImg: "/Kit7-min.jpeg",
+    name: "UST",
+    description: "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
+  },
+  {
+    id: 8,
+    navItems: "Diwali Kit 8",
+    kitImg: "/Kit8-min.jpeg",
+    name: "UST",
+    description: "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
+  },
+  {
+    id: 9,
+    navItems: "Diwali Kit 9",
+    kitImg: "/Kit9-min.jpeg",
+    name: "UST",
+    description: "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
+  },
+  {
+    id: 10,
+    navItems: "Diwali Kit 10",
+    kitImg: "/Kit10-min.jpeg",
+    name: "UST",
+    description: "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
+  },
+  {
+    id: 11,
+    navItems: "Diwali Kit 9",
+    kitImg: "/Kit11-min.jpeg",
+    name: "UST",
+    description: "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
+  },
+  {
+    id: 12,
+    navItems: "Diwali Kit 10",
+    kitImg: "/Kit12-min.jpeg",
+    name: "UST",
+    description: "BrandSTIK's exceptional corporate gifting solution showcased its expertise through a remarkable case study welcome kit. This thoughtfully designed kit featured a versatile backpack, a branded Adidas cap exuding style, a durable Borosil trek bottle for staying hydrated on the go, and a premium diary and pen for jotting down inspirations. The perfect blend of utility and sophistication made this welcome kit a resounding success, leaving a lasting impression on its recipients.",
+  },
+];

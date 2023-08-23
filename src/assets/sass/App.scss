@@ -31,6 +31,11 @@ div {
     display: inline-block;
     min-width: 150px;
     text-align: center;
+    border: none;
+
+    &.block{
+        width:100%
+    }
 
     &.c-btn-active {
         background-color: #e47639;
@@ -74,3 +79,20 @@ div {
 .pointer{
     cursor: pointer;
 }
+
+.input{
+    width:100%;
+    border:none;
+    height: 45px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border:1px solid #fff;
+    background-color: transparent;
+    font-size: 16px;
+
+    &::placeholder{
+        color: #ddd;
+    }
+}
+

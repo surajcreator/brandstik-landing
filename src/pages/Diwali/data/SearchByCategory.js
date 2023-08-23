@@ -51,37 +51,44 @@ export const categoryData = [
 export const categoryOptions = [
   {
     id: "fo23",
-    title: "Rs.101 - Rs.250",
+    title: "Smart Devices",
+    value: "Smart Devices",
     className: "c-btn-active",
   },
   {
     id: "fo24",
-    title: "Rs.251 - Rs.500",
+    title: "Gourmet",
+    value: "Gourmet",
     className: "c-btn-success",
   },
   {
-    id: "fo25",
-    title: "Rs.501 - Rs.1000",
+    id: "fo26",
+    title: "Drinkware",
+    value: "Drinkware",
     className: "c-btn-bright",
   },
   {
-    id: "fo26",
-    title: "Rs.1001 - Rs.2000",
+    id: "fo27",
+    title: "Home and Kitchen",
+    value: "Home and Kitchen",
     className: "",
   },
   {
-    id: "fo27",
-    title: "Rs.2001 - Rs.5000",
+    id: "fo28",
+    title: "Lunch Boxes",
+    value: "Lunch Boxes",
     className: "c-btn-bright",
   },
   {
     id: "fo28",
-    title: "Rs.5001 - Rs.10000",
+    title: "Kitchen and Living",
+    value: "Kitchen and Living",
     className: "",
   },
   {
     id: "fo29",
-    title: "Above Rs.10000",
+    title: "Tech Accessories",
+    value: "Tech Accessories",
     className: "c-btn-active",
-  },
+  }
 ];
