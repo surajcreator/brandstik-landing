@@ -52,36 +52,43 @@ export const priceOptions = [
   {
     id: "fo23",
     title: "Rs.101 - Rs.250",
+    value: "101-250",
     className: "c-btn-active",
   },
   {
     id: "fo24",
     title: "Rs.251 - Rs.500",
+    value: "251-500",
     className: "c-btn-success",
   },
   {
     id: "fo25",
     title: "Rs.501 - Rs.1000",
+    value: "501-1000",
     className: "c-btn-bright",
   },
   {
     id: "fo26",
     title: "Rs.1001 - Rs.2000",
+    value: "1001-2000",
     className: "",
   },
   {
     id: "fo27",
     title: "Rs.2001 - Rs.5000",
+    value: "2001-5000",
     className: "c-btn-bright",
   },
   {
     id: "fo28",
     title: "Rs.5001 - Rs.10000",
+    value: "5001-10000",
     className: "",
   },
   {
     id: "fo29",
     title: "Above Rs.10000",
+    value: "above-10000",
     className: "c-btn-active",
   },
 ];
