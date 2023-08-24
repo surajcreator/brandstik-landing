@@ -84,8 +84,35 @@ const RequestDemo = () => {
                             </div>
 
                             <div className='col-12 col-md-4 mb-4'>
-                                <div className='request-extra button'>
-                                    
+                                <div className='request-extra-button'>
+                                    <button className='c-btn block c-btn-bright'>
+                                        <div className='d-flex'>
+                                            <img src='/phone-icon.jpg' width="40" height="40" />
+                                            <p className='ms-3'>Call us<br />+91 95940 74940</p>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div className='col-12 col-md-4 mb-4'>
+                                <div className='request-extra-button'>
+                                    <button className='c-btn block c-btn-success'>
+                                        <div className='d-flex'>
+                                            <img src='/chat-icon.jpg' width="40" height="40" />
+                                            <p className='ms-3'>Chat with us<br />Live chat</p>
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div className='col-12 col-md-4 mb-4'>
+                                <div className='request-extra-button'>
+                                    <button className='c-btn block c-btn-light'>
+                                        <div className='d-flex'>
+                                            <img src='/email-icon.jpg' width="40" height="40" />
+                                            <p className='ms-3'>Mail us<br />info@brandstik.com</p>
+                                        </div>
+                                    </button>
                                 </div>
                             </div>
                         </div>

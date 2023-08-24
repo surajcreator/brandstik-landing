@@ -5,12 +5,13 @@ import { heroSlider } from "./data/HeroSliderData";
 import { ContentWithSidebar as PopularKit } from "../../components/Page/ContentWithSidebar/ContentWithSidebar";
 import { popularKitData } from "./data/PopularKit";
 import { Feature as SearchByPrice, Feature as SearchByCategory } from "../Feature";
-import { priceData, priceOptions } from "./data/SearchByPrice";
-import { categoryData, categoryOptions } from "./data/SearchByCategory";
+import { priceOptions } from "./data/SearchByPrice";
+import { categoryOptions } from "./data/SearchByCategory";
 import { UniqueTechPlatform as RedeemDiwaliGift } from "../../components/Page/EmployeeKit/UniquePlatform";
 import { preFooterInternationalData } from "../InternationalWelcomeKit/preFooterData";
 import Footer from "../../components/Footer/Footer";
 import RequestDemo from "../../components/RequestDemo/RequestDemo";
+import EmbedCatalogue from "../../components/Catalogue/EmbedCatalogue";
 
 const DiwaliGifts = () => {
   const [productByPrice, setProductByPrice] = useState([]);
@@ -117,6 +118,7 @@ const DiwaliGifts = () => {
         description="Try the FOXBOX Rewards Online Platform and automate Diwali Gifts Distribution hassle-free."
         link="https://www.brandstik.com/platform/welcome-kit-redemption-platform/1"
       />
+      <EmbedCatalogue />
       <Footer preFooterData={preFooterInternationalData} />
     </div>
   );

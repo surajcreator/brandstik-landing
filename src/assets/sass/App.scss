@@ -37,6 +37,11 @@ div {
         width:100%
     }
 
+    &.c-btn-light{
+        background-color: #e7e7e9;
+        color: #333;
+    }
+
     &.c-btn-active {
         background-color: #e47639;
         color: #ffffff;
