@@ -7,7 +7,7 @@ const EmbedCatalogue = () => {
       <div className="container">
         <Title
           className={"text-center"}
-          headingLevel="h3"
+          headingLevel="h1"
         ><span className="title-underline zero">Our Catalogue</span></Title>
 
         <div className="mt-5">
