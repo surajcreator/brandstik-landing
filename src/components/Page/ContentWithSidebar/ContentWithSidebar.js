@@ -11,6 +11,7 @@ export const ContentWithSidebar = ({title, navItems}) => {
         description: popularKitData[0].description,
         name: popularKitData[0].name,
         kitImg: popularKitData[0].kitImg,
+        navItems: popularKitData[0].navItems
     })
 
     useEffect(()=>{
@@ -35,6 +36,7 @@ export const ContentWithSidebar = ({title, navItems}) => {
                     description: item.description,
                     name: item.name,
                     kitImg: item.kitImg,
+                    navItems: item.navItems
                   })} className={`c-btn d-block pointer ${
                       selectedArticle.id === item.id ? "c-btn-bright" : ""}`}>
                     {item.navItems}
@@ -53,11 +55,14 @@ export const ContentWithSidebar = ({title, navItems}) => {
               />
             </div>
             <div className="banner-text">
-              <h4>{selectedArticle?.description}</h4>
-              <p className="mt-4">
+              <h4>{selectedArticle?.navItems} - {selectedArticle?.name}</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam vel sapien dignissim, ac eleifend massa ultricies. Nullam eget neque ut turpis varius fermentum.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam vel sapien dignissim, ac eleifend massa ultricies. Nullam eget neque ut turpis varius fermentum.
+              </p>
+              {/* <p className="mt-4">
                 <a className="c-btn c-btn-active">Welcome Kit</a>
                 <a className="c-btn ms-3">Employee Kit Kit</a>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

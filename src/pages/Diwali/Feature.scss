@@ -18,6 +18,8 @@
 
             @media screen and (max-width:991px) {
                 display: flex;
+                overflow-x: auto;
+                white-space: nowrap;
             }
             li{
                 pointer-events: visible;

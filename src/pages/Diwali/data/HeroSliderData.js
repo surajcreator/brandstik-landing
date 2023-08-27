@@ -1,7 +1,7 @@
 export const heroSlider = [
     {
         id:"CDG1",
-        image:"/international-welcome-kit-hero.jpg",
+        image:"/corporate-diwali-gifts-hero.jpg",
         name:'welcome kit'
     }
 ]
