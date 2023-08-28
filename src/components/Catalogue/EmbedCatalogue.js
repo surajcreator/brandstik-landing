@@ -11,7 +11,7 @@ const EmbedCatalogue = () => {
         ><span className="title-underline zero">Our Catalogue</span></Title>
 
         <div className="mt-5">
-        <iframe src="https://heyzine.com/flip-book/55044ddf8b.html" frameborder="0" allowfullscreen="" allowtransparency=""></iframe>
+        <iframe src="https://heyzine.com/flip-book/2ea092b483.html" frameborder="0" allowfullscreen="" allowtransparency=""></iframe>
         </div>
       </div>
     </div>
