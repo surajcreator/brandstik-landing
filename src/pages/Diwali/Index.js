@@ -41,6 +41,7 @@ const DiwaliGifts = () => {
           description: `${item.short_brief}`,
           img: `https://www.brandstik.com${item.image}`,
           link: `${item.slug}`,
+          budget: `${item.price_range}`
         }));
         setProductByPrice(priceData);
       } else {
@@ -105,6 +106,7 @@ const DiwaliGifts = () => {
         title="Search By Price"
         featureOptions={priceOptions}
         apiCaller={getProductByPrice}
+        showPrice={true}
       />
       <SearchByCategory
         featureData={productByCategory}

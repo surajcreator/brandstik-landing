@@ -20,21 +20,35 @@
 
     .card-content{
         padding: 15px;
+
+        a.read-more{
+            text-decoration: none;
+            color: inherit;
+            font-size: 20px;
+            display: block;
+            text-align: right;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        
+        .card-price{
+            font-size: 22px;
+            color: #e47639;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
         .card-title{
             font-size: 22px;
             font-weight: 900;
             font-family: $font-1;
-
-            a{
-                text-decoration: none;
-                color: inherit;
-            }
+            text-align: center;
         }
     
         .card-description{
             font-size: 18px;
             margin-top: 15px;
             font-family: $font-1;
+            text-align: center;
         }
     }
 }

@@ -3,7 +3,7 @@ import Card from "../components/Card/Card";
 import Title from "../components/Title/Title";
 import './Feature.scss';
 
-export const Feature = ({ featureData, hasBackgroundColor = false, title, featureOptions, apiCaller }) => {
+export const Feature = ({ featureData, hasBackgroundColor = false, title, featureOptions, apiCaller, showPrice }) => {
   const [articles, setArticles] = useState(featureData);
 
   const onClickHandler = async (searchTerm) => {
@@ -31,7 +31,7 @@ export const Feature = ({ featureData, hasBackgroundColor = false, title, featur
           <div className="feature-item-wrapper">
             {articles?.map(item => (
               <div key={item.id} className="feature-item">
-                <Card data={item} readMore={`https://www.brandstik.com/${item.slug}`} />
+                <Card showPrice={showPrice} data={item} readMore={`https://www.brandstik.com/shop/products/${item.link}`} />
               </div>
             ))}
           </div>
