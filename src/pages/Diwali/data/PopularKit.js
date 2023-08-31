@@ -74,7 +74,7 @@ export const popularKitData = [
     id: 12,
     navItems: "Diwali Kit 12",
     kitImg: "/kit-img/12.jpg",
-    name: "BrandSTIK ",
-    description: "BrandSTIK Gourmet Power Pack",
+    name: "BrandSTIK Gourmet Power Pack ",
+    description: "",
   },
 ];
