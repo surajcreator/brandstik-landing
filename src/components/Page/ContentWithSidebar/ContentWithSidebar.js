@@ -56,9 +56,9 @@ export const ContentWithSidebar = ({title, navItems}) => {
             </div>
             <div className="banner-text">
               <h4>{selectedArticle?.navItems} - {selectedArticle?.name}</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam vel sapien dignissim, ac eleifend massa ultricies. Nullam eget neque ut turpis varius fermentum.
+              {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam vel sapien dignissim, ac eleifend massa ultricies. Nullam eget neque ut turpis varius fermentum.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam vel sapien dignissim, ac eleifend massa ultricies. Nullam eget neque ut turpis varius fermentum.
-              </p>
+              </p> */}
               {/* <p className="mt-4">
                 <a className="c-btn c-btn-active">Welcome Kit</a>
                 <a className="c-btn ms-3">Employee Kit Kit</a>
