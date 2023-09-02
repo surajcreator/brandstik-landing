@@ -39,7 +39,7 @@ export const ContentWithSidebar = ({title, navItems}) => {
                     navItems: item.navItems
                   })} className={`c-btn d-block pointer ${
                       selectedArticle.id === item.id ? "c-btn-bright" : ""}`}>
-                    {item.navItems}
+                    {item.name}
                   </a>
                 </li>
               ))}
@@ -55,7 +55,7 @@ export const ContentWithSidebar = ({title, navItems}) => {
               />
             </div>
             <div className="banner-text">
-              <h4>{selectedArticle?.navItems} - {selectedArticle?.name}</h4>
+              <h4>{selectedArticle?.name}</h4>
               {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam vel sapien dignissim, ac eleifend massa ultricies. Nullam eget neque ut turpis varius fermentum.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam vel sapien dignissim, ac eleifend massa ultricies. Nullam eget neque ut turpis varius fermentum.
               </p> */}
