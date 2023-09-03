@@ -59,17 +59,9 @@ const RequestDemo = () => {
   };
 
   async function sendRequestDemo(userEmail, callBackNumber) {
-    const formData = new FormData();
-    formData.append("userEmail", userEmail);
-    formData.append("callBackNumber", callBackNumber);
-
     try {
       const response = await fetch(
-        "https://www.brandstik.com/Services/method.aspx/SendRequestDemo",
-        {
-          method: "POST",
-          body: formData,
-        }
+        `https://www.brandstik.com/Services/RequestDemo.aspx?userEmail=${userEmail}&callBackNumber=${callBackNumber}&requestCode=AppEmaileWgc2MtjN`,
       );
 
       if (response.ok) {
