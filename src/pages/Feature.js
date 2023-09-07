@@ -7,7 +7,6 @@ export const Feature = ({ featureData, hasBackgroundColor = false, title, featur
   const [articles, setArticles] = useState(featureData);
 
   const onClickHandler = async (searchTerm) => {
-    debugger
     if (apiCaller) {
       await apiCaller(searchTerm);
     }
@@ -22,9 +21,13 @@ export const Feature = ({ featureData, hasBackgroundColor = false, title, featur
       <div className="container">
         {title && <Title className='text-center'><span className="title-underline zero">{title}</span></Title>}
         <ul className="feature-option">
-          {featureOptions?.map(item => (
-            <li key={item.id}><a onClick={() => onClickHandler(item.value)} className={`c-btn pointer ${item.className}`}>{item.title}</a></li>
-          ))}
+          {featureOptions?.map(item => {
+            if(item.link === undefined){
+              return <li key={item.id}><a onClick={() => onClickHandler(item.value)} className={`c-btn pointer ${item.className}`}>{item.title}</a></li>
+            }else{
+              return <li key={item.id}><a href={item.link} target="_blank" className={`c-btn pointer ${item.className}`}>{item.title}</a></li>
+            }
+          })}
         </ul>
 
         <div className="feature-item-box">

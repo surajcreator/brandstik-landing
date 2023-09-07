@@ -155,7 +155,7 @@ const RequestDemo = () => {
 
               <div className="col-12 col-md-4 mb-4">
                 <div className="request-extra-button">
-                  <button className="c-btn block c-btn-success">
+                  <button className="c-btn block c-btn-info">
                     <div className="d-flex">
                       <img src="/chat-icon.jpg" width="40" height="40" />
                       <p className="ms-3">

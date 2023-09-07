@@ -90,5 +90,12 @@ export const categoryOptions = [
     title: "Tech Accessories",
     value: "Tech Accessories",
     className: "c-btn-active",
+  },
+  {
+    id: "fo39",
+    title: "More",
+    value: "More",
+    className: "c-btn-success",
+    link: "https://www.brandstik.com/products"
   }
 ];

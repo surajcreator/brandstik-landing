@@ -11,7 +11,8 @@ export const ContentWithSidebar = ({title, navItems}) => {
         description: popularKitData[0].description,
         name: popularKitData[0].name,
         kitImg: popularKitData[0].kitImg,
-        navItems: popularKitData[0].navItems
+        navItems: popularKitData[0].navItems,
+        subItems: popularKitData[0].subItems
     })
 
     useEffect(()=>{
@@ -36,7 +37,8 @@ export const ContentWithSidebar = ({title, navItems}) => {
                     description: item.description,
                     name: item.name,
                     kitImg: item.kitImg,
-                    navItems: item.navItems
+                    navItems: item.navItems,
+                    subItems:item.subItems
                   })} className={`c-btn d-block pointer ${
                       selectedArticle.id === item.id ? "c-btn-bright" : ""}`}>
                     {item.name}
@@ -56,6 +58,19 @@ export const ContentWithSidebar = ({title, navItems}) => {
             </div>
             <div className="banner-text">
               <h4>{selectedArticle?.name}</h4>
+              {
+                selectedArticle?.subItems.length > 0 &&
+                <div className="subItemsContent">
+                  <strong>Includes</strong>
+                  <ol>
+                    {
+                      selectedArticle?.subItems.map((subItem, index) => (
+                        <li key={`subItem${index}`}>{subItem}</li>
+                      ))
+                    }
+                  </ol>
+                </div>
+              }  
               {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam vel sapien dignissim, ac eleifend massa ultricies. Nullam eget neque ut turpis varius fermentum.
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam vel sapien dignissim, ac eleifend massa ultricies. Nullam eget neque ut turpis varius fermentum.
               </p> */}
