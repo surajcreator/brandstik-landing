@@ -144,9 +144,11 @@ const RequestDemo = () => {
                     <div className="d-flex">
                       <img src="/phone-icon.jpg" width="40" height="40" />
                       <p className="ms-3">
+                        <a href="tel:+919594074940">
                         Call us
                         <br />
                         +91 95940 74940
+                        </a>
                       </p>
                     </div>
                   </button>
@@ -159,9 +161,11 @@ const RequestDemo = () => {
                     <div className="d-flex">
                       <img src="/chat-icon.jpg" width="40" height="40" />
                       <p className="ms-3">
+                        <a href="javascript:$zopim.livechat.window.show()">
                         Chat with us
                         <br />
                         Live chat
+                        </a>
                       </p>
                     </div>
                   </button>
@@ -174,9 +178,11 @@ const RequestDemo = () => {
                     <div className="d-flex">
                       <img src="/email-icon.jpg" width="40" height="40" />
                       <p className="ms-3">
+                        <a href="mailto:info@brandstik.com">
                         Mail us
                         <br />
                         info@brandstik.com
+                        </a>
                       </p>
                     </div>
                   </button>
