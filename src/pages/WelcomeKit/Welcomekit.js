@@ -13,12 +13,14 @@ import Testimonials from "../../components/Testimonials/Testimonials"
 import { heroSliderEmployeeWelcomeKit } from "./HeroSliderData";
 import { preFooterData } from "./PreFooterData"
 import { featureData, featureOptions } from "./FeatureData"
+import RequestDemo from "../../components/RequestDemo/RequestDemo"
 
 const WelcomeKit = () =>{
     return(
         <>
             <HeroSlider data={heroSliderEmployeeWelcomeKit} />
-            <RibbonWithTitle text='Request a Demo' redirectLink={{link: 'https:www.brandstik.com/contact-us', target:'_blank'}} />
+            {/* <RibbonWithTitle text='Request a Demo' redirectLink={{link: 'https:www.brandstik.com/contact-us', target:'_blank'}} /> */}
+            <RequestDemo />
             <WelcomeKitSpecs src="/specs-welcome-kit.svg" alt="Employee Welcome kit" />
             <div className="mt-4"><Client /></div>
             <div className="container custom-container mt-5 mb-5">
