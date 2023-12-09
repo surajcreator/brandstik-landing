@@ -2,54 +2,33 @@ export const preFooterData = [
   {
     id: "pf13",
     title: "Welcome Kit For New Employees",
-    description:
-      "A student dedicates almost 2 decades of his constructive and creative years to schools and learning. After graduation, the students set out in the practical world, where they take steps that align with their ambitions. The corporate world, or the economic and industrial world, is where students will find employment after graduating from high school or college.",
+    description:"Make a memorable first impression with BrandSTIK's Welcome Kit for New Employees. We understand the importance of providing a warm welcome to your new hires, and our thoughtfully designed kits are tailored to create a lasting impact. From Corporate Welcome Kits to Onboarding Kits for new employees, we have the perfect solution to enhance your onboarding process.",
   },
   {
     id: "pf14",
-    title: "Buy Welcome Kit For New Employees Online",
-    description:
-      "When an intern or a fresher joins an organization after clearing numerous rounds of interviews, he or she becomes part of it. More than a name in his or her CV, the organization, the people, and the culture grow on him or her, and that forms the formative years in the professional world of the new employee.",
+    title: "Benefits of Giving Welcome Kits to New Employees",
+    description:"<p>Giving a new joining kit to new employees goes beyond a simple gesture. It is a powerful tool that fosters a sense of belonging and appreciation within your organization. Here are the key benefits of providing corporate welcome kits</p><p>Seamless Onboarding: Our joining kit for new employees help create a seamless onboarding experience for new employees. By providing them with essential resources and a warm welcome, you set them up for success right from the start.</p><p>Showcasing Company Culture: Employee joining kits are an excellent opportunity to showcase your company's culture. Whether it's through branded merchandise or personalized items, you can instill a sense of pride and connection in your employees.</p><p>Boosting Employee Engagement: When employees feel valued, they become more engaged and motivated. Corporate hampers for employees act as a tangible expression of appreciation, making employees feel seen and recognized.</p>",
   },
   {
     id: "pf15",
-    title: "Types of Gifts in Welcome Kit for New Employees",
-    description:
-      "The journey from school to the office could be intimidating, daunting, and challenging all at once. To make this less overwhelming, organizations often acknowledge the new employees with a 'Welcome Kit'. This new employee joining kit is more than a gift the company shares with the new recruits. It's a warm gesture, and the gifts present in the welcome kit for new employees are further used for constructive and collaborative efforts by the employee that help build both - the organization and the career of the new employee.",
+    title: "What should be in a New Hire Welcome Kit?",
+    description:"<ol> <li>Branded company merchandise, including apparel, accessories, and stationery.</li> <li>A personalized welcome letter or note to express your excitement about their joining.</li> <li>Details on your company's values and brand message.</li> <li>Office welcome kit essentials such as pens, notepads, and desk accessories.</li> <li>Delicious snacks or gourmet treats add a touch of indulgence.</li> <li>Useful tech gadgets or tools that align with your employees' needs.</li> <li>Customized gift hampers India, items that allow you to add a personal touch.</li> </ol>",
   },
   {
     id: "pf16",
-    title: "Best Gifts In A New Employee Joining Kit",
-    description: "",
+    title: "Browse Our Collection of Employee Welcome Kits Online",
+    description: "Discover our extensive collection of Employee Welcome Kits online. From Corporate Hampers for Employees to customized welcome kit boxes, we offer a wide range of options to suit every preference. Our kits are thoughtfully designed to impress and engage your new employees, leaving a lasting impression.",
   },
   {
     id: "pf17",
-    title: "Personalised Pen",
+    title: "Send Employee Welcome Kit With Our Online Delivery Service",
     description:
-      "Personalised pen and diary set ordered online really leaves a mark. One such present that stands out since it is personalised with your name is an engraved pen. These pens can be ordered with bespoke logos and names. Simply enter the name you want to be engraved on the pen, and we'll do the rest, including sending it to the recipient. Anyone and any circumstance can benefit from receiving personalised pen and diary gift sets. You can get a customised pen gift set for your new employees and curate their onboarding kits with a special touch. It makes a wonderful present for employees in their new joinee kit.",
+      "Sending Welcome Kits for New Employees has never been easier. With our reliable online delivery services, you can ensure that your kits reach your new employees promptly, whether they are working remotely or located in different office branches. We take care of the logistics, so you can focus on creating a positive onboarding experience.",
   },
   {
     id: "pf18",
-    title: "Personalised Keychains",
+    title: "Choose BrandSTIK for your Employee Welcome Kits",
     description:
-      "Keychains are a straightforward but distinctive solution for the perfect present to express your feelings. Personalised keychains can be ordered based on the recipient's personality. There are many different kinds of personalised keychains available today, including keychains with custom names, keychains with a glass finish, fabric keychains, and more. Get the most fashionable keychains that are also reasonably priced. Here are a few of the keychain designs we offer:",
-  },
-  {
-    id: "pf19",
-    title: "Personalised Diary",
-    description:
-      "Personalised diary is an ideal gift while designing the onboarding welcome kit for new employees. A personalised diary and pen set not only will be carried by the new employees regularly but also be helpful to them to take key notes and takeaways of the crucial learnings they receive from their superiors on a regular basis. These learnings written in notebook gift sets will help they grow and groom them further making the diary gift set an essential part of welcome kit for new employees online.",
-  },
-  {
-    id: "pf20",
-    title: "Custom Temperature Bottle",
-    description:
-      "A Temperature Bottle is a thermos bottle with a hot/cold display. Customized Temperature bottles can be purchased as a gift for someone whose name is printed on it. New Employees need to be acknowledged and what better way to value their participation in your organization than this smart and cool gift? Simply place an order and provide us the order number along with the name you want printed to use it for yourself or someone else.",
-  },
-  {
-    id: "pf21",
-    title: "Personalised Gift Sets",
-    description:
-      "<p>The greatest possibilities for giving your loved ones meaningful presents with a personal touch that they will cherish forever are those that are personalised. To add a personal touch to the custom gift sets, you may have a phrase or quote printed alongside the image of your loved ones. The individualised presents, which may be personalised with a logo or inscription, are a fantastic alternative for such memorable events. To make your employee gift sets all the more valuable, all of our personalised combos are offered at reasonable costs without compromising on the quality. When they receive such thoughtful gifts that they will cherish forever, their face will shine with happiness.</p><p>The finest approach to give your loved ones something special with a personal touch is with personalised welcome kit for new employees.</p>",
-  },
+      "At BrandSTIK, we specialize in creating exceptional Employee Welcome Kits. Our focus is on providing high-quality products, personalization options, and timely delivery. Let us help you welcome new employees in style and make a lasting impact with our corporate welcome kits.",
+  }
 ];

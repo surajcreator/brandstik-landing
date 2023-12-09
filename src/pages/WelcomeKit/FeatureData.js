@@ -46,22 +46,32 @@ export const featureData = [
   export const featureOptions = [
     {
       id: "fo23",
-      title: "3000+ Products",
+      title: "3000+ Range",
       className: "c-btn-active"
     },
     {
       id: "fo24",
-      title: "Innovative Kits",
+      title: "Custimization",
       className: "c-btn-success"
     },
     {
       id: "fo25",
-      title: "Global Shipping",
+      title: "Inventry and Warehousing",
       className: "c-btn-bright"
     },
     {
       id: "fo26",
-      title: "Inhouse Printing Facility",
+      title: "Pan India and Global Shipping",
       className: "c-btn-active"
     },
+    {
+      id: "fo23",
+      title: "Sustainable Range",
+      className: "c-btn-active"
+    },
+    {
+      id: "fo24",
+      title: "Super Responsive Team",
+      className: "c-btn-success"
+    }
   ]

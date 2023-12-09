@@ -40,7 +40,6 @@ const Client = () => {
                         <h4>{selectedClient?.description}</h4>
                         <p className="mt-4">
                             <a className="c-btn c-btn-active">Welcome Kit</a>
-                            <a className="c-btn ms-3">Employee Kit Kit</a>
                         </p>
                     </div>
                 </div>
