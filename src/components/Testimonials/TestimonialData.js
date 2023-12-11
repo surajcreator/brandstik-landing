@@ -11,6 +11,6 @@ export const testimonialData = [
         title: "Customization",
         description:
             "This allows clients to customize their gifts with their own branding and messages and have the convenience of storing the gifts with BrandSTIK before distribution. This streamlines the gifting process and allows for efficient and effective corporate gifting solutions.",
-        img: "/testi-two.jpg",
+        img: "/testi-two.jpeg",
     }
 ];
