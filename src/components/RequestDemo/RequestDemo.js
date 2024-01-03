@@ -147,7 +147,7 @@ const RequestDemo = () => {
                         <a href="tel:+919594074940">
                         Call us
                         <br />
-                        +91 95940 74940
+                        +91 86550 06622
                         </a>
                       </p>
                     </div>
