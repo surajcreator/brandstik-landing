@@ -144,7 +144,7 @@ const RequestDemo = () => {
                     <div className="d-flex">
                       <img src="/phone-icon.jpg" width="40" height="40" />
                       <p className="ms-3">
-                        <a href="tel:+919594074940">
+                        <a href="tel:+918655006622">
                         Call us
                         <br />
                         +91 86550 06622
